@@ -1,0 +1,87 @@
+@media screen and (max-width:1200px){
+  header{
+    height: 65vh;
+  }
+}
+@media screen and (max-width:1024px) {
+  .mobile-menu span{
+    display: block;
+  }
+  header{
+    height: 55vh;
+  }
+.main-nav{
+  display: none;
+}
+.hero-text-box{
+width: 90%;
+}
+html{
+  font-size: 57.5%;
+}
+.client-photo{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+.client-review{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+.contact-section form{
+  width: 100%;
+  margin-left: 0;
+}
+}
+@media screen and (max-width:980px){
+.span_1_of_4 {
+width: 49.2%;
+}
+.span_1_of_4:nth-child(3){
+margin-left: 0;
+}
+html{
+  font-size: 62.5%;
+}
+}
+@media screen and (max-width:786px){
+.little-description{
+  width: 100%;
+  margin-left: 0;
+}
+.portfolio-section p{
+    width: 100%;
+    margin-left: 0;
+}
+.skill-section p{
+  width: 100%;
+  margin-left: 0;
+}
+h2{
+  font-size: 3rem;
+}
+}
+@media screen and (max-width:480px){
+  .span_1_of_4 {
+  width: 100%;
+  }
+  .contact-section form{
+    width: 100%;
+    margin-right: 0;
+  }
+  header{
+    height: 95vh;
+  }
+  .team-section .social-link ul li{
+    margin: 0 .3rem;
+  }
+  .portfolio-section .portfolio-filter button{
+  padding: .4rem;
+  margin: 0;
+  }
+  .testimonial-section .col:nth-child(3),
+  .testimonial-section .col:nth-child(4){
+    margin-top: 4rem;
+  }
+}
